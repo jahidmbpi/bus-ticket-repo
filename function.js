@@ -86,14 +86,14 @@ function getHideElementById(elementId) {
   const element = document.getElementById(elementId);
   element.classList.add("hidden");
 }
-function HideElementByid(elmentid) {
-  const elment = document.getElementById(elmentid);
-  elment.classList.add("hidden");
-}
+// function HideElementByid(elmentid) {
+//   const elment = document.getElementById(elmentid);
+//   elment.classList.add("hidden");
+// }
 
 function ShowElementById(elmentid) {
   const elment = document.getElementById(elmentid);
-  elment.classList.remove("hidden");
+  elment.classList.add("hidden");
 }
 
 function getShowElementbyid(elementId) {

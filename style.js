@@ -3,6 +3,6 @@ function ByTicket() {
 }
 
 function paly() {
-  HideElementByid("all-hidden");
-  ShowElementById("success");
+  ShowElementById("shanto");
+  getShowElementbyid();
 }
